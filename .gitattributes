@@ -1,0 +1,8 @@
+# Keep web/text assets as LF; avoids CRLF issues (esp. the CNAME file)
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
